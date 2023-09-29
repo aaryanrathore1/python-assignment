@@ -1,0 +1,13 @@
+Scores = [35, 50, 20, 30, 55, 75, 90, 95, 66, 80]
+
+for score in Scores:
+    if score > 70:
+        print("distinction")
+    elif score >= 60:
+        print("first class")
+    elif score >= 50:
+        print("second class")
+    elif score >= 35:
+        print("just pass")
+    else:
+        print("fail")
